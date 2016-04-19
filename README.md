@@ -2,15 +2,24 @@
 
 ##Overview
 
-Built a watch face for Android Wear so users can access Sunshine's weather information at a glance.
+Built a watch face for Android Wear so users can access Sunshine's weather information at a glance.Sunshine's mobile app(used in the Udacity Advanced Android course) synchronizes weather information from OpenWeatherMap on Android Phones and Tablets.
  
- ##Prerequisites
+![device-2016-04-18-224606](https://cloud.githubusercontent.com/assets/15085932/14612956/8415aee0-05b7-11e6-80fc-9fbb3318dc9c.png)
+![preview_digital_circular](https://cloud.githubusercontent.com/assets/15085932/14612954/84137648-05b7-11e6-8e7a-51cad4a84ea2.png)
+![device-2016-04-18-224518](https://cloud.githubusercontent.com/assets/15085932/14612955/84147f3e-05b7-11e6-8fe4-c5d0e4a1d33b.png)
 
-* The app is built with compileSdkVersion 23 and requires [JDK 7](http://oracle.com/technetwork/java/javase/downloads/index.html) or higher
-* Android Studio
+##Prerequisites
 
  The app source code is provided in the course [repository] (https://www.udacity.com/api/nodes/4292653440/supplemental_media/xyzreaderzip/download)
  
+* The app is built with compileSdkVersion 23 and requires [JDK 7](http://oracle.com/technetwork/java/javase/downloads/index.html) or higher
+
+* Android Studio
+
+* Update your SDK tools to version 23.0.0 or higher 
+
+* Update your SDK with Android 4.4W.2 (API 20) or higher 
+
  ##Instructions
 
 ###Get the source codes
@@ -33,7 +42,7 @@ Once the project is cloned to disk you can import into Android Studio:
 
  *  Android Studio will import the project and build it. This might take minutes to complete. Even when the project window is opened, wait until the Gradle tasks are finished and indexed.
  
- ###Build and install using Gradle
+###Build and install using Gradle
 
 If you just want to install the app to your device, you don't have to import project to Android Studio.
 
@@ -43,6 +52,14 @@ If you just want to install the app to your device, you don't have to import pro
 
  •  Compile the sample and install it. Run gradlew installDebug. Or if you on a Windows computer, use **gradlew.bat** instead.
  
+###Set Up an Android Wear Emulator or Device
+
+It is recommended that you develop on real hardware so you can better gauge the user experience. However, the emulator lets you test out different types of screen shapes, which is useful for testing.To set up an Android Wear Emulator or Device follow [these instructions](http://developer.android.com/intl/es/training/wearables/apps/creating.html#SetupEmulator)
+
+##Instructions for creating a watch face
+
+Simple configurations to be done can be found [here](http://developer.android.com/intl/es/training/wearables/watch-faces/service.html)
+
 ###Contributing
 
 Please follow the **"fork-and-pull"** Git workflow while contributing to this project
