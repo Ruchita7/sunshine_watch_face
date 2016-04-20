@@ -2,7 +2,7 @@
 
 ##Overview
 
-Sunshine's mobile app(used in the Udacity Advanced Android course) synchronizes weather information from OpenWeatherMap on Android Phones and Tablets. **Go Ubiquitous** project is used to design a watch face for Android Wear so that users can access Sunshine's weather information at a glance.
+Sunshine's mobile app (used in the Udacity Advanced Android course) synchronizes weather information from OpenWeatherMap on Android Phones and Tablets. **Go Ubiquitous** project is used to design a watch face for Android Wear so that users can access Sunshine's weather information at a glance.
  
 ![device-2016-04-18-224606](https://cloud.githubusercontent.com/assets/15085932/14612956/8415aee0-05b7-11e6-80fc-9fbb3318dc9c.png)
 ![preview_digital_circular](https://cloud.githubusercontent.com/assets/15085932/14612954/84137648-05b7-11e6-8e7a-51cad4a84ea2.png)
@@ -19,6 +19,8 @@ Sunshine's mobile app(used in the Udacity Advanced Android course) synchronizes 
 * Update your SDK tools to version 23.0.0 or higher 
 
 * Update your SDK with Android 4.4W.2 (API 20) or higher 
+
+* Android wear or emulator(instructions to configure which are given below)
 
 * The [Wearable Support Library](http://developer.android.com/intl/es/reference/android/support/wearable/watchface/package-summary.html) provides the necessary classes that you extend to create watch face implementations. The Google Play services client libraries (play-services and play-services-wearable) are required to sync data items between the companion device and the wearable with the [Wearable Data Layer API](http://developer.android.com/intl/es/training/wearables/data-layer/index.html).
 
