@@ -2,7 +2,7 @@
 
 ##Overview
 
-Built a watch face for Android Wear so users can access Sunshine's weather information at a glance.Sunshine's mobile app(used in the Udacity Advanced Android course) synchronizes weather information from OpenWeatherMap on Android Phones and Tablets.
+Sunshine's mobile app(used in the Udacity Advanced Android course) synchronizes weather information from OpenWeatherMap on Android Phones and Tablets. This project is used to design a watch face for Android Wear so that users can access Sunshine's weather information at a glance.
  
 ![device-2016-04-18-224606](https://cloud.githubusercontent.com/assets/15085932/14612956/8415aee0-05b7-11e6-80fc-9fbb3318dc9c.png)
 ![preview_digital_circular](https://cloud.githubusercontent.com/assets/15085932/14612954/84137648-05b7-11e6-8e7a-51cad4a84ea2.png)
@@ -20,7 +20,9 @@ Built a watch face for Android Wear so users can access Sunshine's weather infor
 
 * Update your SDK with Android 4.4W.2 (API 20) or higher 
 
- ##Instructions
+* The [Wearable Support Library](http://developer.android.com/intl/es/reference/android/support/wearable/watchface/package-summary.html) provides the necessary classes that you extend to create watch face implementations. The Google Play services client libraries (play-services and play-services-wearable) are required to sync data items between the companion device and the wearable with the [Wearable Data Layer API](http://developer.android.com/intl/es/training/wearables/data-layer/index.html).
+
+##Instructions
 
 ###Get the source codes
 
@@ -28,7 +30,7 @@ Get the source code of the library and example app, by cloning git repository or
 
  * If you use **git**, execute the following command in your workspace directory.
  
-    `$ git clone https://github.com/Ruchita7/Build_it_bigger.git`
+    `$ git clone https://github.com/Ruchita7/sunshine_watch_face.git`
     
 * If you are using Windows, try it on GitBash or Cygwin or something that supports git.
  
@@ -56,9 +58,6 @@ If you just want to install the app to your device, you don't have to import pro
 
 It is recommended that you develop on real hardware so you can better gauge the user experience. However, the emulator lets you test out different types of screen shapes, which is useful for testing.To set up an Android Wear Emulator or Device follow [these instructions](http://developer.android.com/intl/es/training/wearables/apps/creating.html#SetupEmulator)
 
-##Instructions for creating a watch face
-
-Simple configurations to be done can be found [here](http://developer.android.com/intl/es/training/wearables/watch-faces/service.html)
 
 ###Contributing
 
